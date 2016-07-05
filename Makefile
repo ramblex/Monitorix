@@ -68,6 +68,7 @@ install-bin:
 	$(INSTALL_DATA) lib/apcupsd.pm "$(DESTDIR)$(LIBDIR)/apcupsd.pm"
 	$(INSTALL_DATA) lib/bind.pm "$(DESTDIR)$(LIBDIR)/bind.pm"
 	$(INSTALL_DATA) lib/disk.pm "$(DESTDIR)$(LIBDIR)/disk.pm"
+	$(INSTALL_DATA) lib/dag.pm "$(DESTDIR)$(LIBDIR)/dag.pm"
 	$(INSTALL_DATA) lib/du.pm "$(DESTDIR)$(LIBDIR)/du.pm"
 	$(INSTALL_DATA) lib/emailreports.pm "$(DESTDIR)$(LIBDIR)/emailreports.pm"
 	$(INSTALL_DATA) lib/fail2ban.pm "$(DESTDIR)$(LIBDIR)/fail2ban.pm"
